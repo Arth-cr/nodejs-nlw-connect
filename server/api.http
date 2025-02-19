@@ -2,10 +2,27 @@ POST http://localhost:3333/subscriptions
 Content-Type: application/json
 
 {
-  "name": "Arthur Ribeiro",
-  "email": "Arthur.Car1valho@outlook.com.br"
+  "name": "Indicado 3",
+  "email": "Indicado-3@outlook.com.br",
+  "referrer": "f0877a0b-c75e-4559-80ff-b678f804ebc3"
 }
 
 ###
 
-GET http://localhost:3333/invites/arth123
+GET http://localhost:3333/invites/f0877a0b-c75e-4559-80ff-b678f804ebc3
+
+###
+
+GET http://localhost:3333/subscribers/f0877a0b-c75e-4559-80ff-b678f804ebc3/ranking/clicks
+
+###
+
+GET http://localhost:3333/subscribers/f0877a0b-c75e-4559-80ff-b678f804ebc3/ranking/count
+
+###
+
+GET http://localhost:3333/subscribers/f0877a0b-c75e-4559-80ff-b678f804ebc3/ranking/position
+
+###
+
+GET http://localhost:3333/ranking
