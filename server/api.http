@@ -3,5 +3,9 @@ Content-Type: application/json
 
 {
   "name": "Arthur Ribeiro",
-  "email": "Arthur.Carvalho@outlook.com.br"
+  "email": "Arthur.Car1valho@outlook.com.br"
 }
+
+###
+
+GET http://localhost:3333/invites/arth123
